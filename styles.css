@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*styles reset*/
+html, body, div, span, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------text styles-------------*/
+
+body {
+  font-family: Montserrat;
+  font-size: 16px;
+  text-align: center;
+  background-color: #FADFC8;
+}
+
+h1 {
+  font-size: 0.8rem;
+  font-weight:  700;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+p {
+  letter-spacing: 0.14rem;
+  margin-bottom: 3%;
+}
+
+/*----------display styles---------*/
+
+ #logo {
+  margin-left: 3%;
+  margin-top: 5px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+header ul {
+  margin-left: 50px;
+
+
+}
+header ul li {
+  display: inline-flex;
+  margin-right: 20px;
+
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #FD6370;
+  font-size: 1.2rem;
+  margin: 5%;
+}
+
+header ul li a:hover {
+  background-color: rgba(250, 97, 110, 0.1);
+}
+
+header ul li a:active {
+  color: white;
+  background-color: rgba(250, 97, 110, 0.5);
+}
+
+nav {
+  position: absolute;
+  right: 0px;
+  margin-left: 7%;
+}
+
+.mission-statement {
+  background-color: rgba(250, 97, 110, 0.1);
+  display:inline-block;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.products img {
+  height: 500px;
+  width: 700px;
+  margin: 5%;
+
+}
+
+.products figcaption {
+  font-weight: 100;
+  background-color: rgba(253, 185, 99, 1);
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+.team ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.team li {
+  display: block;
+}
+
+.members {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-top: 8%;
+  
+}
+
+.occupation {
+    font-weight: 700;
+    margin: 5%;
+}
+
+#Matt {
+  background-image: url('https://visualhunt.com/photos/1/man-sitting-at-desk-and-working-on-computer.jpg?s=l');
+  background-size: cover;
+}
+
+#Steffan {
+  background-image: url('https://visualhunt.com/photos/1/photographer-camera-photo-photos-foto-lens.jpg?s=l');
+  background-size: cover;
+}
+
+#Sarah {
+  background-image: url('https://visualhunt.com/photos/1/young-woman-in-red-knit-hat-photographing.jpg?s=l');
+  background-size: cover;
+}
+
+#Alexis {
+  background-image: url('https://visualhunt.com/photos/1/man-sitting-on-sofa-and-writing-in-notepad.jpg?s=l');
+  background-size: cover;
+}
+
+@media only screen and (min-width: 2400px) {
+  body {
+    font-size: 20px;
+  }
+}
