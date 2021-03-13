@@ -171,22 +171,22 @@ nav {
 }
 
 #Matt {
-  background-image: url('/ethan-hoover-0YHIlxeCuhg-unsplash.jpg');
+  background-image: url('./ethan-hoover-0YHIlxeCuhg-unsplash.jpg');
   background-size: cover;
 }
 
 #Steffan {
-  background-image: url('/mubariz-mehdizadeh-t3zrEm88ehc-unsplash.jpg');
+  background-image: url('./mubariz-mehdizadeh-t3zrEm88ehc-unsplash.jpg');
   background-size: cover;
 }
 
 #Sarah {
-  background-image: url('/christopher-campbell-rDEOVtE7vOs-unsplash.jpg');
+  background-image: url('./christopher-campbell-rDEOVtE7vOs-unsplash.jpg');
   background-size: cover;
 }
 
 #Alexis {
-  background-image: url('/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg');
+  background-image: url('./sergio-de-paula-c_GmwfHBDzk-unsplash.jpg');
   background-size: cover;
 }
 
